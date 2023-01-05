@@ -23,3 +23,7 @@ all_record = collection.find()
 # Printing all records present in the collection
 for idx, record in enumerate(all_record):
      print(f"{idx}: {record}")
+
+
+
+wget https://raw.githubusercontent.com/avnyadav/sensor-fault-detection/main/aps_failure_training_set1.csv
